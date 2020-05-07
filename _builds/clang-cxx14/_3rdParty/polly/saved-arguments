@@ -1,0 +1,1 @@
+"cmake" "-H." "-B/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/clang-cxx14" "-GUnix Makefiles" "-DCMAKE_TOOLCHAIN_FILE=/home/kichyr/Acronis/kichyr/workspace/supertask/tools/polly/clang-cxx14.cmake"

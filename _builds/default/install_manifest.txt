@@ -1,0 +1,5 @@
+/home/kichyr/Acronis/kichyr/workspace/supertask/_install/default/lib/libtoBinary.a
+/home/kichyr/Acronis/kichyr/workspace/supertask/_install/default/include/binary_rep.hpp
+/home/kichyr/Acronis/kichyr/workspace/supertask/_install/default/cmake/toBinary-config.cmake
+/home/kichyr/Acronis/kichyr/workspace/supertask/_install/default/cmake/toBinary-config-noconfig.cmake
+/home/kichyr/Acronis/kichyr/workspace/supertask/_install/default/bin/demo

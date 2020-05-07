@@ -1,0 +1,5 @@
+/home/kichyr/Acronis/kichyr/workspace/supertask/_build/_CPack_Packages/Linux/TZ/toBinary-0.1.0.-Linux/lib/libtoBinary.a
+/home/kichyr/Acronis/kichyr/workspace/supertask/_build/_CPack_Packages/Linux/TZ/toBinary-0.1.0.-Linux/include/binary_rep.hpp
+/home/kichyr/Acronis/kichyr/workspace/supertask/_build/_CPack_Packages/Linux/TZ/toBinary-0.1.0.-Linux/cmake/toBinary-config.cmake
+/home/kichyr/Acronis/kichyr/workspace/supertask/_build/_CPack_Packages/Linux/TZ/toBinary-0.1.0.-Linux/cmake/toBinary-config-noconfig.cmake
+/home/kichyr/Acronis/kichyr/workspace/supertask/_build/_CPack_Packages/Linux/TZ/toBinary-0.1.0.-Linux/bin/demo

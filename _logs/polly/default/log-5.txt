@@ -1,0 +1,33 @@
+Execute command: [
+  `which`
+  `cmake`
+]
+[/home/kichyr/Acronis/kichyr/workspace/supertask]> "which" "cmake"
+/snap/bin/cmake
+Execute command: [
+  `cmake`
+  `--version`
+]
+[/home/kichyr/Acronis/kichyr/workspace/supertask]> "cmake" "--version"
+cmake version 3.17.2
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+Execute command: [
+  `cmake`
+  `--build`
+  `/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/default`
+  `--target`
+  `install`
+  `--`
+]
+[/home/kichyr/Acronis/kichyr/workspace/supertask]> "cmake" "--build" "/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/default" "--target" "install" "--"
+[ 50%] Built target print
+[100%] Built target demo
+Install the project...
+-- Install configuration: ""
+-- Up-to-date: /home/kichyr/Acronis/kichyr/workspace/supertask/_install/default/lib/libprint.a
+-- Up-to-date: /home/kichyr/Acronis/kichyr/workspace/supertask/_install/default/include
+-- Up-to-date: /home/kichyr/Acronis/kichyr/workspace/supertask/_install/default/include/binary_rep.hpp
+-- Up-to-date: /home/kichyr/Acronis/kichyr/workspace/supertask/_install/default/cmake/print-config.cmake
+-- Up-to-date: /home/kichyr/Acronis/kichyr/workspace/supertask/_install/default/cmake/print-config-noconfig.cmake
+-- Up-to-date: /home/kichyr/Acronis/kichyr/workspace/supertask/_install/default/bin/demo

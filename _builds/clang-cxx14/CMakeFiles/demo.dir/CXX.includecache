@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../include/binary_rep.hpp
+string
+-
+algorithm
+-
+
+/home/kichyr/Acronis/kichyr/workspace/supertask/examples/demo.cpp
+binary_rep.hpp
+-
+iostream
+-
+

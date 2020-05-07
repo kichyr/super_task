@@ -1,0 +1,61 @@
+Execute command: [
+  `which`
+  `cmake`
+]
+[/home/kichyr/Acronis/kichyr/workspace/supertask]> "which" "cmake"
+/snap/bin/cmake
+Execute command: [
+  `cmake`
+  `--version`
+]
+[/home/kichyr/Acronis/kichyr/workspace/supertask]> "cmake" "--version"
+cmake version 3.17.2
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+Execute command: [
+  `cmake`
+  `-H.`
+  `-B/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/default`
+  `-DCMAKE_TOOLCHAIN_FILE=/home/kichyr/Acronis/kichyr/workspace/supertask/tools/polly/default.cmake`
+  `-DCMAKE_INSTALL_PREFIX=/home/kichyr/Acronis/kichyr/workspace/supertask/_install/default`
+]
+[/home/kichyr/Acronis/kichyr/workspace/supertask]> "cmake" "-H." "-B/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/default" "-DCMAKE_TOOLCHAIN_FILE=/home/kichyr/Acronis/kichyr/workspace/supertask/tools/polly/default.cmake" "-DCMAKE_INSTALL_PREFIX=/home/kichyr/Acronis/kichyr/workspace/supertask/_install/default"
+-- [polly] Used toolchain: Default
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: /home/kichyr/.hunter
+-- [hunter] [ Hunter-ID: 5659b15 | Toolchain-ID: 810fbc6 | Config-ID: 8a1641b ]
+-- [hunter] GTEST_ROOT: /home/kichyr/.hunter/_Base/5659b15/810fbc6/8a1641b/Install (ver.: 1.10.0)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kichyr/Acronis/kichyr/workspace/supertask/_builds/default
+Execute command: [
+  `cmake`
+  `--build`
+  `/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/default`
+  `--target`
+  `install`
+  `--`
+]
+[/home/kichyr/Acronis/kichyr/workspace/supertask]> "cmake" "--build" "/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/default" "--target" "install" "--"
+[ 50%] Built target print
+[100%] Built target demo
+Install the project...
+-- Install configuration: ""
+-- Up-to-date: /home/kichyr/Acronis/kichyr/workspace/supertask/_install/default/lib/libprint.a
+-- Up-to-date: /home/kichyr/Acronis/kichyr/workspace/supertask/_install/default/include
+-- Up-to-date: /home/kichyr/Acronis/kichyr/workspace/supertask/_install/default/include/binary_rep.hpp
+-- Up-to-date: /home/kichyr/Acronis/kichyr/workspace/supertask/_install/default/cmake/print-config.cmake
+-- Installing: /home/kichyr/Acronis/kichyr/workspace/supertask/_install/default/cmake/print-config-noconfig.cmake
+-- Up-to-date: /home/kichyr/Acronis/kichyr/workspace/supertask/_install/default/bin/demo
+Execute command: [
+  `ctest`
+]
+[/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/default]> "ctest"
+*********************************
+No test configuration file found!
+*********************************
+Usage
+
+  ctest [options]
+

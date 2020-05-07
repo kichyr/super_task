@@ -1,0 +1,84 @@
+Execute command: [
+  `which`
+  `cmake`
+]
+[/home/kichyr/Acronis/kichyr/workspace/supertask]> "which" "cmake"
+/snap/bin/cmake
+Execute command: [
+  `cmake`
+  `--version`
+]
+[/home/kichyr/Acronis/kichyr/workspace/supertask]> "cmake" "--version"
+cmake version 3.17.2
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+Execute command: [
+  `cmake`
+  `-H.`
+  `-B/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/default`
+  `-DCMAKE_TOOLCHAIN_FILE=/home/kichyr/Acronis/kichyr/workspace/supertask/tools/polly/default.cmake`
+  `-DCMAKE_INSTALL_PREFIX=/home/kichyr/Acronis/kichyr/workspace/supertask/_install/default`
+]
+[/home/kichyr/Acronis/kichyr/workspace/supertask]> "cmake" "-H." "-B/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/default" "-DCMAKE_TOOLCHAIN_FILE=/home/kichyr/Acronis/kichyr/workspace/supertask/tools/polly/default.cmake" "-DCMAKE_INSTALL_PREFIX=/home/kichyr/Acronis/kichyr/workspace/supertask/_install/default"
+-- [polly] Used toolchain: Default
+-- The C compiler identification is GNU 9.2.1
+-- The CXX compiler identification is GNU 9.2.1
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: /home/kichyr/.hunter
+-- [hunter] [ Hunter-ID: 5659b15 | Toolchain-ID: 810fbc6 | Config-ID: 8a1641b ]
+-- [hunter] GTEST_ROOT: /home/kichyr/.hunter/_Base/5659b15/810fbc6/8a1641b/Install (ver.: 1.10.0)
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE
+CMake Error at /snap/cmake/340/share/cmake-3.17/Modules/CPack.cmake:561 (message):
+  CPack package description file:
+  "/home/kichyr/Acronis/kichyr/workspace/supertask/DESCRIPTION" could not be
+  found.
+Call Stack (most recent call first):
+  /snap/cmake/340/share/cmake-3.17/Modules/CPack.cmake:565 (cpack_check_file_exists)
+  CPackConfig.cmake:24 (include)
+  CMakeLists.txt:67 (include)
+
+
+CMake Error at /snap/cmake/340/share/cmake-3.17/Modules/CPack.cmake:561 (message):
+  CPack license resource file:
+  "/home/kichyr/Acronis/kichyr/workspace/supertask/LICENSE" could not be
+  found.
+Call Stack (most recent call first):
+  /snap/cmake/340/share/cmake-3.17/Modules/CPack.cmake:566 (cpack_check_file_exists)
+  CPackConfig.cmake:24 (include)
+  CMakeLists.txt:67 (include)
+
+
+CMake Error at /snap/cmake/340/share/cmake-3.17/Modules/CPack.cmake:561 (message):
+  CPack readme resource file:
+  "/home/kichyr/Acronis/kichyr/workspace/supertask/README.md" could not be
+  found.
+Call Stack (most recent call first):
+  /snap/cmake/340/share/cmake-3.17/Modules/CPack.cmake:567 (cpack_check_file_exists)
+  CPackConfig.cmake:24 (include)
+  CMakeLists.txt:67 (include)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/default/CMakeFiles/CMakeOutput.log".
+See also "/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/default/CMakeFiles/CMakeError.log".

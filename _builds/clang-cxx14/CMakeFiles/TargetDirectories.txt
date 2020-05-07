@@ -1,0 +1,10 @@
+/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/clang-cxx14/CMakeFiles/install/strip.dir
+/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/clang-cxx14/CMakeFiles/install/local.dir
+/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/clang-cxx14/CMakeFiles/install.dir
+/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/clang-cxx14/CMakeFiles/list_install_components.dir
+/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/clang-cxx14/CMakeFiles/demo.dir
+/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/clang-cxx14/CMakeFiles/package.dir
+/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/clang-cxx14/CMakeFiles/package_source.dir
+/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/clang-cxx14/CMakeFiles/toBinary.dir
+/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/clang-cxx14/CMakeFiles/edit_cache.dir
+/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/clang-cxx14/CMakeFiles/rebuild_cache.dir

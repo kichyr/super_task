@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtoBinary.a  CMakeFiles/toBinary.dir/sources/binary_rep.cpp.o
+/usr/bin/ranlib libtoBinary.a

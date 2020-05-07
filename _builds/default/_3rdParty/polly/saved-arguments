@@ -1,0 +1,1 @@
+"cmake" "-H." "-B/home/kichyr/Acronis/kichyr/workspace/supertask/_builds/default" "-DCMAKE_TOOLCHAIN_FILE=/home/kichyr/Acronis/kichyr/workspace/supertask/tools/polly/default.cmake" "-DCMAKE_INSTALL_PREFIX=/home/kichyr/Acronis/kichyr/workspace/supertask/_install/default"

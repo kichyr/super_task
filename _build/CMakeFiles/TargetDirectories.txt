@@ -1,0 +1,12 @@
+/home/kichyr/Acronis/kichyr/workspace/supertask/_build/CMakeFiles/install/strip.dir
+/home/kichyr/Acronis/kichyr/workspace/supertask/_build/CMakeFiles/list_install_components.dir
+/home/kichyr/Acronis/kichyr/workspace/supertask/_build/CMakeFiles/rebuild_cache.dir
+/home/kichyr/Acronis/kichyr/workspace/supertask/_build/CMakeFiles/edit_cache.dir
+/home/kichyr/Acronis/kichyr/workspace/supertask/_build/CMakeFiles/install.dir
+/home/kichyr/Acronis/kichyr/workspace/supertask/_build/CMakeFiles/check.dir
+/home/kichyr/Acronis/kichyr/workspace/supertask/_build/CMakeFiles/toBinary.dir
+/home/kichyr/Acronis/kichyr/workspace/supertask/_build/CMakeFiles/demo.dir
+/home/kichyr/Acronis/kichyr/workspace/supertask/_build/CMakeFiles/package.dir
+/home/kichyr/Acronis/kichyr/workspace/supertask/_build/CMakeFiles/package_source.dir
+/home/kichyr/Acronis/kichyr/workspace/supertask/_build/CMakeFiles/install/local.dir
+/home/kichyr/Acronis/kichyr/workspace/supertask/_build/CMakeFiles/test.dir
